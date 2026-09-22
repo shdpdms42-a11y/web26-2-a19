@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>14image_basic</title>
+</head>
+<body>
+
+    <h2>14image_basic</h2>
+    <img src="Penguins.jpg" alt="펭귄" width="300">
+    <img src="Nothing" alt="그림이 존재하지 않음. 펭귄" width="300">
+    <img src="https://www.mjc.ac.kr/resource/site_theme/ST0000000002/images/contents/img_simbol.gif" alt="명지전문대 로고" width="300">
+    <img src="horse.jpg" width="200">
+
+    <h2>15audio_basic</h2>
+    <audio src="Kalimba.mp3" controls="controls"></audio>
+
+    <h2>16audio_source</h2>
+    <!--웹 브라우저마다 지원하는 파일 확장자가 다른 문제는 audio, video 태그 내부에 source태그를 입력해 해결.-->
+    <audio controls="controls">
+        <source src="Kalimba.mp3" type="audio/mp3">
+        <source src="Kalimba.ogg" type="audio/ogg">
+    </audio>
+
+    <h2>17video_basic</h2>
+    <video controls="controls">
+        <source src="Wildlife.mp4" type="video/mp4">
+        <source src="Wildlife.webm" type="video/webm">
+    </video>
+
+    <h2>18video_pposter</h2>
+    <video controls="controls" poster="sjrnfl.jpg">
+        <source src="Wildlife.mp4" type="video/mp4">
+        <source src="Wildlife.webm" type="video/webm">
+    </video>
+</body>
+</html>
